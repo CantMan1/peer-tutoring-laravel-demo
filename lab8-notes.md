@@ -25,3 +25,18 @@ For the tutoring request workflow, the user clicks the "Request a session" butto
 It seems like the primary use-case for leveraging Laravel is that it segregates each major functionality of the web application. For smaller projects like Lab6/7, I think it would be more effort to integrate than its worth. However, when the scale of the application expands, having the ability to easily call back to set templates and built-in functions within Laravel would make expansion and code management a lot easier. I think the main reason we arent being asked to convert at this point is because an application leveraging Laravel should be built from the ground up, rather than starting with a different framework and attempting to integrate laravel halfway through.
 
 
+![alt text](image.png)
+
+Route:
+![alt text](image-1.png)
+
+Controller:
+![alt text](image-2.png)
+
+Model:
+![alt text](image-3.png)
+
+View:
+![alt text](image-4.png)
+
+It was nice that laravel segregated different functionalities of the application, and it was also nice that it comes with built-in features. However, I think initially it adds a lot of complexity and confusion to the application layout that was not previously there. I think to fully leverage laravel, it would probably be easier to start building the application with laravel in mind rather than trying to integrate it halfway through.
